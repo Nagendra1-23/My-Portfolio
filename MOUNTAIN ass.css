@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#mountain{
+    width: 100%;
+    height: 600px;
+}
+#mountain{
+    background-image: url(../../asset/image/leftlargemountainNight.png),url(../../asset/image/moon.png),url(../../asset/image/leftsmallmountaimNight.png),url(../../asset/image/sun.png),url(../../asset/image/birds.gif),url(../../asset/image/rightsmallmountainNight.png),url(../../asset/image/rightlargemountainnight.png),url(../../asset/image/night.png);
+    background-size: 700px,150px,600px,300px,150px,600px,700px,100% 100%;
+    background-position: 0px 160px,top left,350px 220px,450px 500px,650px 400px,400px 200px,610px 160px,center;
+    background-repeat: no-repeat;
+    transition: all 7s;
+}
+#mountain:hover{
+    background-image: url(../../asset/image/leftlargemountain.png),url(../../asset/image/moon.png),url(../../asset/image/leftsmallmountaimdayy.png),url(../../asset/image/sun.png),url(../../asset/image/birds.gif),url(../../asset/image/rightsmallmountainday.png),url(../../asset/image/rightlargemountainday.png),url(../../asset/image/sky.png);
+    background-size: 700px,50px,600px,150px,150px,600px,700px,100% ;
+    background-position: -50px 210px,200px 300px,300px 270px,600px 0px,1600px 300px,450px 270px,660px 210px,bottom;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg,red,green,pink,orange,yellow,blue);
+}
+input{
+    position:relative;
+    top: 30%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size:50px;
+    border: 7px solid red;
+    outline: none;
+    border-radius:50px;
+    box-shadow:5px 5px 5px black;
+}
+#image{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 400px;
+    height: 300px;
+    display: none;
+
+}
+#input1{
+    border: 7px solid hotpink;
+}
+#input2{
+    border: 7px solid lawngreen;
+}
+#input3{
+    border: 7px solid yellow;
+}
+#button{
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    width: 400px;
+    height: 80px;
+    font-size:50px;
+    font-weight: bold;
+    letter-spacing:3px;
+    z-index: 0;
+    border-radius: 30px;
+    outline: none;
+    border: solid 3px  royalblue;
+    color: gold;
+    background-color: darkturquoise;
+    box-shadow: 5px 5px 5px white;
+    
+}
+#span{
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
