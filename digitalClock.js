@@ -37,7 +37,7 @@ setInterval(dateTime,1000);
 function bgVideo(){
     let date=new Date();
     var dy=date.getDay();
-    var vidArr=["2.mp4","1.mp4","3.mp4","4.mp4","5.mp4","6.mp4","7.mp4"];
+    var vidArr=["7.mp4"];
     document.getElementById("bgVid").src=`../../asset/video/${vidArr[dy]}`;
 
 }
