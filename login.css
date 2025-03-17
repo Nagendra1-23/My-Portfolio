@@ -10,7 +10,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../asset/image/jaint.jpg);
+    background-image: url(jaint.jpg);
     background-size: cover;
     background-position: center;
 }
